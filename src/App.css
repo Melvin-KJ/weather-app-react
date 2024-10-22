@@ -1,0 +1,91 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url('https://cdn.pixabay.com/photo/2023/12/12/19/08/moutains-8445767_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+h1{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+.app{
+  background: rgba(255,255,255,0.5);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.app:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+input{
+  padding: 12px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus{
+  border-color: #007BFF;
+}
+
+button{
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border:none;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover{
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.weather-container{
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.weather-container h2{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.weather-container img{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
